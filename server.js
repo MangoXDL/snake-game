@@ -3,7 +3,7 @@ const fs = require("node:fs");
 
 const mime = require("mime");
 
-const hostname = "127.0.0.1"; // localhost
+const hostname = "0.0.0.0"; // localhost
 const port = 3001;
 
 function handleRequest(req, res) {
